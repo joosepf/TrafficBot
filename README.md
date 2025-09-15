@@ -13,7 +13,6 @@ TrafficBot processes intersection traffic control through two independent Arduin
 - Controls two-way intersection traffic with ultrasonic proximity detection
 - Manages traffic flow with configurable timing and cooldown periods
 - Supports obstacle avoidance and manual power control
-- Operates on Picasso-2 infinity track with integrated stop line detection
 
 ---
 
@@ -53,9 +52,9 @@ The system requires the following Arduino sketch files:
 ```text
 TrafficBot/
 ├── Robot/
-│   └── Robot.ino
-├── TrafficLight/        # Line-following robot code
-│   └── TrafficLight.ino # Intersection traffic control 
+│   └── Robot.ino           # Line-following robot code
+├── TrafficLight/        
+│   └── TrafficLight.ino    # Intersection traffic control 
 └── Schematics/             # Connection schematics
     ├── Robot.svg
     └── TrafficLight.svg
